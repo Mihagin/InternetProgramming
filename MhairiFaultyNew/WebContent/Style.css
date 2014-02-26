@@ -1,0 +1,441 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #FFFFFF;
+	background-color: #1E1E1E;
+}
+
+.clear:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+}
+
+.clear {
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+html[xmlns] .clear {
+	display: block;
+}
+
+* html .clear {
+	height: 1%;
+}
+
+a {
+	outline: none;
+	text-decoration: none;
+}
+
+code {
+	font-weight: normal;
+	font-style: normal;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.fl_left {
+	float: centre;
+}
+
+.fl_right {
+	float: right;
+}
+
+article,footer,header,hgroup,nav,section {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+q {
+	display: block;
+	padding: 0 10px 8px 10px;
+	color: #979797;
+	background-color: #ECECEC;
+	font-style: italic;
+	line-height: normal;
+}
+
+q:before {
+	content: '“ ';
+	font-size: 26px;
+}
+
+q:after {
+	content: ' „';
+	font-size: 26px;
+	line-height: 0;
+}
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+div.wrapper {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+.row1,.row1 a {
+	color: #C0BAB6;
+	background-color: #333333;
+}
+
+.row2 {
+	color: #979797;
+	background-color: #FFFFFF;
+}
+
+.row2 a {
+	color: #FF9900;
+	background-color: #FFFFFF;
+}
+
+.row3,.row3 a {
+	color: #FFFFFF;
+	background-color: #1E1E1E;
+}
+
+/*----------------------------------------------Generalise-------------------------------------*/
+#header,#container,#footer {
+	display: block;
+	margin: 0 auto;
+	width: 960px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: normal;
+}
+
+/*----------------------------------------------Header-------------------------------------*/
+#header,#header a {
+	color: #C0BAB6;
+	background-color: #333333;
+}
+
+#header hgroup {
+	float: left;
+	padding: 20px 0;
+}
+
+#header hgroup h1,#header hgroup h2 {
+	
+}
+
+#header hgroup h1 {
+	font-size: 36px;
+}
+
+#header hgroup h2 {
+	font-size: 13px;
+}
+
+#header nav {
+	float: right;
+	padding: 20px 0;
+}
+
+#header nav ul {
+	margin-top: 20px;
+}
+
+#header nav li {
+	display: inline;
+	margin-right: 15px;
+	text-transform: uppercase;
+}
+
+#header nav li.last {
+	margin-right: 0;
+}
+
+#header nav a {
+	color: #C0BAB6;
+	background-color: #333333;
+}
+
+#header nav a:hover {
+	color: #FF9900;
+	background-color: #333333;
+}
+
+/*----------------------------------------------Content Area-------------------------------------*/
+#container {
+	padding: 30px 0;
+}
+
+#container section {
+	margin: 0 0 30px 0;
+}
+
+#container section.last {
+	margin: 0;
+}
+
+#container .more {
+	text-align: right;
+	text-transform: uppercase;
+	font-size: smaller;
+	font-weight: bold;
+}
+
+/* ------Left Column-----*/
+#container #left_column {
+	float: left;
+	width: 280px;
+}
+
+#container #left_column h2.title {
+	margin-bottom: 20px;
+}
+
+#container #left_column nav {
+	display: block;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+#container #left_column nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#container #left_column nav li {
+	margin: 0 0 3px 0;
+	padding: 0;
+}
+
+#container #left_column nav li.last {
+	margin-bottom: 0;
+}
+
+#container #left_column nav a {
+	display: block;
+	margin: 0;
+	padding: 5px 10px 5px 20px;
+	color: #666666;
+	background: url("../images/orange_file.gif") no-repeat 10px center
+		#FFFFFF;
+	text-decoration: none;
+	border-bottom: 1px dotted #666666;
+}
+
+#container #left_column nav a:hover {
+	color: #FF9900;
+	background-color: #FFFFFF;
+}
+
+/* ------Main Content-----*/
+#container #content {
+	float: right;
+	width: 630px;
+}
+
+#container #content section article {
+	
+}
+
+#container #content section article h2 {
+	text-transform: uppercase;
+}
+
+#container #content section article address {
+	font-size: 10px;
+	font-style: normal;
+}
+
+#container #content section article time {
+	font-size: 10px;
+}
+
+#container #content section article .tags {
+	display: block;
+	padding: 5px;
+	color: #979797;
+	background-color: #ECECEC;
+	font-style: italic;
+}
+
+#container #content section article .tags a {
+	color: #FF9900;
+	background-color: #ECECEC;
+}
+
+#container #content #services {
+	
+}
+
+#container #content #services ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#container #content #services ul li {
+	display: block;
+	width: 300px;
+}
+
+#container #content #services ul li.odd {
+	float: left;
+}
+
+#container #content #services ul li.even {
+	float: right;
+}
+
+#container #content #services ul li img {
+	width: 290px;
+	height: 100px;
+	margin: 0 0 15px 0;
+	padding: 4px;
+	border: 1px solid #666666;
+}
+
+/*----------------------------------------------Footer-------------------------------------*/
+#footer {
+	
+}
+
+#footer p {
+	margin: 0;
+	padding: 20px 0;
+}
+
+/* -------------------------- TABLE ----------------------*/
+.datagrid table {
+	border-collapse: collapse;
+	text-align: left;
+	width:100%;
+}
+
+.datagrid {
+	font: normal 12px/150% Arial, Helvetica, sans-serif;
+	background: #fff;
+	overflow: hidden;
+	border: 1px solid #8C8C8C;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.datagrid table td,.datagrid table th {
+	padding: 3px 10px;
+}
+
+.datagrid table thead th {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #8C8C8C
+		), color-stop(1, #7D7D7D));
+	background: -moz-linear-gradient(center top, #8C8C8C 5%, #7D7D7D 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8C8C8C',
+		endColorstr='#7D7D7D');
+	background-color: #8C8C8C;
+	color: #FFFFFF;
+	font-size: 15px;
+	font-weight: bold;
+	border-left: 1px solid #A3A3A3;
+}
+
+.datagrid table thead th:first-child {
+	border: none;
+}
+
+.datagrid table tbody td {
+	color: #7D7D7D;
+	border-left: 1px solid #DBDBDB;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.datagrid table tbody .alt td {
+	background: #EBEBEB;
+	color: #7D7D7D;
+}
+
+.datagrid table tbody td:first-child {
+	border-left: none;
+}
+
+.datagrid table tbody tr:last-child td {
+	border-bottom: none;
+}
+
+.datagrid table tfoot td div {
+	border-top: 1px solid #8C8C8C;
+	background: #EBEBEB;
+}
+
+.datagrid table tfoot td {
+	padding: 0;
+	font-size: 12px
+}
+
+.datagrid table tfoot td div {
+	padding: 2px;
+}
+
+.datagrid table tfoot td ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: right;
+}
+
+.datagrid table tfoot  li {
+	display: inline;
+}
+
+.datagrid table tfoot li a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 2px 8px;
+	margin: 1px;
+	color: #F5F5F5;
+	border: 1px solid #8C8C8C;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #8C8C8C
+		), color-stop(1, #7D7D7D));
+	background: -moz-linear-gradient(center top, #8C8C8C 5%, #7D7D7D 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8C8C8C',
+		endColorstr='#7D7D7D');
+	background-color: #8C8C8C;
+}
+
+.datagrid table tfoot ul.active,.datagrid table tfoot ul a:hover {
+	text-decoration: none;
+	border-color: #7D7D7D;
+	color: #F5F5F5;
+	background: none;
+	background-color: #8C8C8C;
+}
+
+div.dhtmlx_window_active,div.dhx_modal_cover_dv {
+	position: fixed !important;
+}
+
+th
+{
+text-align:left;
+} SET "ISO-8859-1";
